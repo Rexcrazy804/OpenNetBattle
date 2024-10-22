@@ -1,6 +1,7 @@
 #pragma once
 #include "bnElements.h"
 #include "bnDirection.h"
+#include <cstdint>
 
 // forward declare
 using EntityID_t = long;

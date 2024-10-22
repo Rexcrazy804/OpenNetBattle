@@ -30,25 +30,25 @@ include_directories(BattleNetwork/sol/include) # temporary sol2 bugfix
 add_subdirectory(extern/SFML)
 
 file(GLOB_RECURSE bnFiles CONFIGURE_DEPENDS
-        "BattleNetwork/*.h"
-        "BattleNetwork/*.cpp"
+  "BattleNetwork/*.h"
+  "BattleNetwork/*.cpp"
 	"BattleNetwork/netplay/*.h"
 	"BattleNetwork/netplay/*.cpp"
 	"BattleNetwork/overworld/*.h"
 	"BattleNetwork/overworld/*.cpp"
 	"BattleNetwork/widgets/*.h"
 	"BattleNetwork/widgets/*.cpp"
-        "BattleNetwork/bindings/*.h"
-        "BattleNetwork/bindings/*.cpp"
-        "BattleNetwork/stx/*.h"
-        "BattleNetwork/stx/*.cpp"
-        "BattleNetwork/zip/*.h"
-        "BattleNetwork/zip/*.c"
-        "BattleNetwork/crypto/*.h"
-        "BattleNetwork/sago/*.h"
-        "BattleNetwork/sago/*.cpp"
-        "BattleNetwork/mmbn.ico.c"
-        )
+  "BattleNetwork/bindings/*.h"
+  "BattleNetwork/bindings/*.cpp"
+  "BattleNetwork/stx/*.h"
+  "BattleNetwork/stx/*.cpp"
+  "BattleNetwork/zip/*.h"
+  "BattleNetwork/zip/*.c"
+  "BattleNetwork/crypto/*.h"
+  "BattleNetwork/sago/*.h"
+  "BattleNetwork/sago/*.cpp"
+  "BattleNetwork/mmbn.ico.c"
+)
 
 include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/AddFiles.cmake)
 
