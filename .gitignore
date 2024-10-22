@@ -9,7 +9,6 @@ docs/source/_doxygen
 docs/source/api
 
 # Hide extern
-extern/*
 
 # User-specific files
 *.rsuser
